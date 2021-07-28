@@ -278,10 +278,11 @@ section .title::after{
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+.services .serv-content .card i {
     font-size: 50px;
     color: purple;
     transition: color 0.3s ease;
+    
     
 }
 .services .serv-content .card:hover i{
@@ -292,7 +293,6 @@ section .title::after{
      font-weight: 500;
      margin: 10px 0 7px 0;
 }
-
 
 
 
@@ -472,7 +472,7 @@ section .title::after{
      border: 2px solid purple;
      background: purple;
      color: #fff;
-     font-size: 20px;
+     font-size: 24px;
      font-weight: 500;
      border-radius: 6px;
      cursor: pointer;
@@ -517,9 +517,13 @@ section .title::after{
     .max-width{
         padding: 0 50px;
     } 
+    
 }
 @media (max-width:947px){
     
+    .max-width{ 
+        padding: 0 50px;
+    } 
     .menu-btn{
         display: block;
         z-index: 999;
