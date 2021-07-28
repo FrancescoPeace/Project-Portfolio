@@ -466,7 +466,7 @@ section .title::after{
      height: 47px;
      width: 170px;
  }
- .contact .right form .button button{
+ .contact .right form .button{
      width: 100%;
      height: 100%;
      border: 2px solid purple;
@@ -478,7 +478,7 @@ section .title::after{
      cursor: pointer;
      transition: all 0.3s ease;
  }
- .contact .right form .button button:hover{
+ .contact .right form .button:hover{
     color: purple;
     background: none;
 
